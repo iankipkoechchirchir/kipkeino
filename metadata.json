@@ -1,0 +1,8 @@
+{
+  "name": "The Kipchoge Keino Legacy Platform",
+  "description": "The official legacy portal celebrating Kipchoge Keino's athletic and philanthropic journey, featuring historical timelines, construction status tracker for Kipchoge Keino Stadium, dynamic race trackers for the Absa Kip Keino Classic, and an AI Heritage Assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
