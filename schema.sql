@@ -146,10 +146,10 @@ CREATE TABLE IF NOT EXISTS outgoing_confirmations (
 
 -- Seed Users (Admin Account: admin / Kipkoech)
 INSERT INTO users (id, username, password, email, role, status) VALUES
-(1, 'admin', '$2b$10$v8916CpR60fOYt2Xz6V5jOWlPk7I4hfDOP.v7O5xBEeHK4j82ycze', 'admin@eldoretstadium.go.ke', 'admin', 'active'),
-(2, 'kipkoech_staff', '$2b$10$ucd2Gq9AiF730FL3pYZQ..5a1ES/hF7R60ZKQym7.8cj2N8nt.gQ.', 'kipkoech.staff@eldoretstadium.go.ke', 'staff', 'active'),
-(3, 'coach_paul', '$2b$10$/LyNoIXf1HTzxEd8ps.9X.wZ3kVBKAHx1B2KLxsZMD.UKKMtNiYhu', 'paul.ereng@academy.org', 'coach', 'active'),
-(4, 'athlete_kemboi', '$2b$10$gIlzXnMQWfjZB8FHCwV69uYTr44eZQl4jWojtxsKg0OPOFxOrIAM6', 'ezekiel@kemboi.com', 'athlete', 'active');
+(1, 'ian', '$2b$10$gVU7CaGN8e8eIFfJazjX/OdxqkBn64FIsBX37IwFPoKbE1VrnA7eq', 'admin@kipkeino.co.ke', 'admin', 'active'),
+(2, 'kipkoech_staff', '$2b$10$gVU7CaGN8e8eIFfJazjX/OdxqkBn64FIsBX37IwFPoKbE1VrnA7eq', 'kipkoech.staff@eldoretstadium.go.ke', 'staff', 'active'),
+(3, 'coach_paul', '$2b$10$gVU7CaGN8e8eIFfJazjX/OdxqkBn64FIsBX37IwFPoKbE1VrnA7eq', 'paul.ereng@academy.org', 'coach', 'active'),
+(4, 'athlete_kemboi', '$2b$10$gVU7CaGN8e8eIFfJazjX/OdxqkBn64FIsBX37IwFPoKbE1VrnA7eq', 'ezekiel@kemboi.com', 'athlete', 'active');
 
 -- Seed Staff
 INSERT INTO staff (user_id, name, role, department, salary, shift, status, hire_date) VALUES
